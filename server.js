@@ -6,7 +6,7 @@ const cors = require('cors');
 const path = require('path');
 
 // --- Import API routes ---
-const apiRoutes = require('./routes/api.js');
+const apiRoutes = require('./api.js');
 
 const app = express();
 
