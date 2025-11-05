@@ -1,5 +1,7 @@
 // server.js (main backend entry)
-require('dotenv').config({ path: __dirname + '/../.env' });
+// require('dotenv').config({ path: __dirname + '/../.env' });
+require('dotenv').config();
+
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
